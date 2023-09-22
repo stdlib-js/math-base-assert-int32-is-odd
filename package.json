@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/math-base-assert-int32-is-odd",
-  "version": "0.0.7",
+  "version": "0.1.0",
   "description": "Test if a 32-bit integer is odd.",
   "license": "Apache-2.0",
   "author": {
@@ -42,7 +42,7 @@
     "@stdlib/bench": "^0.0.12",
     "@stdlib/constants-int32-max": "^0.0.7",
     "@stdlib/math-base-special-floor": "^0.0.8",
-    "@stdlib/math-base-special-round": "^0.0.7",
+    "@stdlib/math-base-special-round": "^0.1.0",
     "@stdlib/number-float64-base-to-float32": "^0.0.7",
     "@stdlib/random-base-randu": "^0.0.8",
     "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
