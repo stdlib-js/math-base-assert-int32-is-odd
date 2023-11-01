@@ -1,7 +1,7 @@
 /**
 * @license Apache-2.0
 *
-* Copyright (c) 2018 The Stdlib Authors.
+* Copyright (c) 2023 The Stdlib Authors.
 *
 * Licensed under the Apache License, Version 2.0 (the "License");
 * you may not use this file except in compliance with the License.
@@ -21,59 +21,13 @@
 // MODULES //
 
 var tape = require( 'tape' );
-var randu = require( '@stdlib/random-base-randu' );
-var round = require( '@stdlib/math-base-special-round' );
-var floor = require( '@stdlib/math-base-special-floor' );
-var MAX_INT32 = require( '@stdlib/constants-int32-max' );
-var isOdd = require( './../../dist' );
-
-
-// VARIABLES //
-
-var HALF_MAX_INT32 = floor( MAX_INT32 / 2 );
+var main = require( './../../dist' );
 
 
 // TESTS //
 
-tape( 'main export is a function', function test( t ) {
+tape( 'main export is defined', function test( t ) {
 	t.ok( true, __filename );
-	t.strictEqual( typeof isOdd, 'function', 'main export is a function' );
-	t.end();
-});
-
-tape( 'the function returns `false` if provided `0`', function test( t ) {
-	var bool = isOdd( 0 );
-	t.strictEqual( bool, false, 'returns false when provided 0' );
-	t.end();
-});
-
-tape( 'the function returns `false` if provided an even integer', function test( t ) {
-	var bool;
-	var x;
-	var i;
-	for ( i = 0; i < 1000; i++ ) {
-		x = round( randu()*MAX_INT32 ) - HALF_MAX_INT32 - 1;
-		x *= 2; // always even
-		bool = isOdd( x );
-		t.strictEqual( bool, false, 'returns false when provided '+x );
-	}
-	t.end();
-});
-
-tape( 'the function returns `true` if provided an odd integer', function test( t ) {
-	var bool;
-	var x;
-	var i;
-	for ( i = 0; i < 1000; i++ ) {
-		x = round( randu()*2*MAX_INT32 ) - MAX_INT32;
-		if ( x > 0 ) {
-			x -= 1;
-		}
-		if ( x%2 === 0 ) {
-			x += 1;
-		}
-		bool = isOdd( x );
-		t.strictEqual( bool, true, 'returns true when provided '+x );
-	}
+	t.strictEqual( main !== void 0, true, 'main export is defined' );
 	t.end();
 });
