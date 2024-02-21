@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/math-base-assert-int32-is-odd",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Test if a 32-bit integer is odd.",
   "license": "Apache-2.0",
   "author": {
@@ -38,16 +38,16 @@
   },
   "dependencies": {},
   "devDependencies": {
-    "@stdlib/assert-is-boolean": "^0.1.1",
-    "@stdlib/constants-int32-max": "^0.1.1",
-    "@stdlib/math-base-special-floor": "^0.1.1",
-    "@stdlib/math-base-special-round": "^0.1.1",
-    "@stdlib/number-float64-base-to-float32": "^0.1.1",
-    "@stdlib/random-base-randu": "^0.1.0",
+    "@stdlib/assert-is-boolean": "^0.2.0",
+    "@stdlib/constants-int32-max": "^0.2.0",
+    "@stdlib/math-base-special-floor": "^0.2.0",
+    "@stdlib/math-base-special-round": "^0.2.1",
+    "@stdlib/number-float64-base-to-float32": "^0.2.0",
+    "@stdlib/random-base-randu": "^0.2.0",
     "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
     "istanbul": "^0.4.1",
     "tap-min": "git+https://github.com/Planeshifter/tap-min.git",
-    "@stdlib/bench-harness": "^0.1.2"
+    "@stdlib/bench-harness": "^0.2.0"
   },
   "engines": {
     "node": ">=0.10.0",
