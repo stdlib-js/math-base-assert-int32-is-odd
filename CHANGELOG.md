@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-12-01)
+## Unreleased (2024-12-09)
 
 <section class="commits">
 
@@ -67,7 +67,7 @@ A total of 1 person contributed to this release. Thank you to this contributor:
 <details>
 
 -   [`d04dcbd`](https://github.com/stdlib-js/stdlib/commit/d04dcbd6dc3b0bf4a89bd3947d317fa5ff15bb38) - **docs:** remove private annotations in C comments _(by Philipp Burckhardt)_
--   [`fb6fb04`](https://github.com/stdlib-js/stdlib/commit/fb6fb0476ec7c2b46ff120b45c299ab52f6d06fe) - **fix:** update variable type declarations in `math/base/assert/int32-is-odd` [(#1935)](https://github.com/stdlib-js/stdlib/pull/1935) _(by Rutam)_
+-   [`fb6fb04`](https://github.com/stdlib-js/stdlib/commit/fb6fb0476ec7c2b46ff120b45c299ab52f6d06fe) - **fix:** update variable type declarations in `math/base/assert/int32-is-odd` [(#1935)](https://github.com/stdlib-js/stdlib/pull/1935) _(by Rutam Kathale)_
 -   [`d27da5d`](https://github.com/stdlib-js/stdlib/commit/d27da5ddf7d6acb8da8c4f7bdee5a05df139329e) - **chore:** update package meta data [(#1926)](https://github.com/stdlib-js/stdlib/pull/1926) _(by stdlib-bot, Athan Reines)_
 -   [`d14500f`](https://github.com/stdlib-js/stdlib/commit/d14500f3d9053d0fcd34fa19cdb8d4355bf72af7) - **feat:** add C implementation for `math/base/assert/int32-is-odd` _(by Rejoan Sardar, Pranav, Philipp Burckhardt)_
 
@@ -87,7 +87,7 @@ A total of 5 people contributed to this release. Thank you to the following cont
 -   Philipp Burckhardt
 -   Pranav Goswami
 -   Rejoan Sardar
--   Rutam
+-   Rutam Kathale
 
 </section>
 
