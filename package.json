@@ -45,6 +45,7 @@
   "devDependencies": {
     "@stdlib/assert-is-boolean": "^0.2.2",
     "@stdlib/boolean-ctor": "^0.2.2",
+    "@stdlib/console-log-each-map": "github:stdlib-js/console-log-each-map#main",
     "@stdlib/constants-int32-max": "^0.3.0",
     "@stdlib/math-base-special-floor": "^0.2.3",
     "@stdlib/math-base-special-round": "^0.3.0",
