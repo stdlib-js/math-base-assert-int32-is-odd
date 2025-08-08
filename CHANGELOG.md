@@ -4,7 +4,17 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-04-13)
+## Unreleased (2025-08-08)
+
+<section class="bug-fixes">
+
+### Bug Fixes
+
+-   [`3eea4f7`](https://github.com/stdlib-js/stdlib/commit/3eea4f78d4cfeae6f9dbf10b0c21175a65e5e07b) - add missing includes
+
+</section>
+
+<!-- /.bug-fixes -->
 
 <section class="commits">
 
@@ -12,6 +22,7 @@
 
 <details>
 
+-   [`3eea4f7`](https://github.com/stdlib-js/stdlib/commit/3eea4f78d4cfeae6f9dbf10b0c21175a65e5e07b) - **fix:** add missing includes _(by Athan Reines)_
 -   [`abd07ec`](https://github.com/stdlib-js/stdlib/commit/abd07ecd0b265fa4b9b223e258d3d115b88e9a4c) - **docs:** replace manual `for` loop in examples [(#6668)](https://github.com/stdlib-js/stdlib/pull/6668) _(by Harsh, Athan Reines)_
 -   [`3b07561`](https://github.com/stdlib-js/stdlib/commit/3b07561dde8d7ee36c60e67c7710c861964f123a) - **bench:** update random value generation [(#6659)](https://github.com/stdlib-js/stdlib/pull/6659) _(by Harsh)_
 -   [`2777e4b`](https://github.com/stdlib-js/stdlib/commit/2777e4be161869d09406e3b17947d24c64b47af2) - **bench:** resolve lint errors in benchmarks _(by Athan Reines)_
