@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/math-base-assert-int32-is-odd",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "Test if a 32-bit integer is odd.",
   "license": "Apache-2.0",
   "author": {
@@ -40,7 +40,7 @@
     "url": "https://github.com/stdlib-js/stdlib/issues"
   },
   "dependencies": {
-    "@stdlib/utils-library-manifest": "^0.2.2"
+    "@stdlib/utils-library-manifest": "^0.2.3"
   },
   "devDependencies": {
     "@stdlib/assert-is-boolean": "^0.2.2",
