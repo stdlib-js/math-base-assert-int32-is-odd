@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import isOdd from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-assert-int32-is-odd@esm/index.mjs';
+import isOdd from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-assert-int32-is-odd@v0.3.1-esm/index.mjs';
 ```
 
 #### isOdd( x )
@@ -84,7 +84,7 @@ bool = isOdd( 0 );
 
 import discreteUniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-discrete-uniform@esm/index.mjs';
 import logEachMap from 'https://cdn.jsdelivr.net/gh/stdlib-js/console-log-each-map@esm/index.mjs';
-import isOdd from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-assert-int32-is-odd@esm/index.mjs';
+import isOdd from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-assert-int32-is-odd@v0.3.1-esm/index.mjs';
 
 var opts = {
     'dtype': 'int32'
