@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import isOdd from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-assert-int32-is-odd@deno/mod.js';
+import isOdd from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-assert-int32-is-odd@v0.3.2-deno/mod.js';
 ```
 
 #### isOdd( x )
@@ -79,7 +79,7 @@ bool = isOdd( 0 );
 ```javascript
 import discreteUniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-discrete-uniform@deno/mod.js';
 import logEachMap from 'https://cdn.jsdelivr.net/gh/stdlib-js/console-log-each-map@deno/mod.js';
-import isOdd from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-assert-int32-is-odd@deno/mod.js';
+import isOdd from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-assert-int32-is-odd@v0.3.2-deno/mod.js';
 
 var opts = {
     'dtype': 'int32'
